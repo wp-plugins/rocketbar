@@ -1,10 +1,10 @@
 === The RocketBar ===
 Contributors: code-by-jinx
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YS46UW6PLH286
-Tags: quick switch, rocketbar, spotlight, search, quick, fast
+Tags: switch, rocketbar, spotlight, search, quick, fast, dashboard, commands, admin, widget
 Requires at least: 3.2
 Tested up to: 4.2.2
-Stable tag: 150523
+Stable tag: 150524
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -14,8 +14,14 @@ The quicker page switcher!? Keyboard shortcuts for your WordPress Dashboard.
 
 The RocketBar is a new, faster (FREE) way to get around in WordPres. Instead of clicking from page to page, just hit a keyboard shortcut and immediately go where you're headed!
 
-The plugin is designed after the OSX Spotlight Search feature, and uses a keybinding of `SHIFT + SPACE` to open. Once open, just type in your destination
-and hit `ENTER`.
+The plugin is designed after the OSX Spotlight Search feature, and uses a keybinding of `SHIFT + SPACE` to open.
+
+**But wait, there's more!**
+
+RocketBar also supports several commands and shortcuts that do various actions based on where on your site you're at. For example,
+on a WordPress Post or Page? Open RocketBar and type in <code>edit</code>. Hit ENTER and you're now editing the Post or Page you were on.
+
+Check out all of RocketBar's commands! Install now!
 
 == Installation ==
 
@@ -45,7 +51,7 @@ There's no turning back now. You're one of us.
 
 To track the development of RocketBar, find us on [GitHub](https://github.com/byjinx/rocketbar)!
 
-** The following items are being looked at for additions to a future version of RocketBar:**
+**The following items are being looked at for additions to a future version of RocketBar:**
 
  - Login / Logout Commands
  - Navigation via input of URI (i.e. type in `/a/place/on/my/site` and navigate there directly from RocketBar)
@@ -70,6 +76,9 @@ If you would like to suggest an addition or change, tell us in the Support forum
 = 150523 =
 * Fixed an issue with loading the client-side resources for the plugin, as pointed out by the WordPress.org team
 
+= 150524 =
+* Login/Logout commands, and a powerful API function for your use!
+
 == Upgrade Notice ==
 
 = 150517 =
@@ -77,3 +86,6 @@ First release of RocketBar
 
 = 150523 =
 Initial WordPress.org release of RocketBar
+
+= 150524 =
+Commands update! Upgrade ASAP!
