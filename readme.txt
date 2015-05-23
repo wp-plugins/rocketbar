@@ -1,4 +1,4 @@
-=== Rocketbar ===
+=== The Rocketbar ===
 Contributors: code-by-jinx
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YS46UW6PLH286
 Tags: quick switch, rocketbar, spotlight, search, quick, fast
