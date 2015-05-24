@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: switch, rocketbar, spotlight, search, quick, fast, dashboard, commands, admin, widget
 Requires at least: 3.2
 Tested up to: 4.2.2
-Stable tag: 150524-2
+Stable tag: 150525
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -53,10 +53,10 @@ To track the development of RocketBar, find us on [GitHub](https://github.com/by
 
 **The following items are being looked at for additions to a future version of RocketBar:**
 
- - Login / Logout Commands
- - Navigation via input of URI (i.e. type in `/a/place/on/my/site` and navigate there directly from RocketBar)
- - A set of "default" commands / links, based on your usage of the RocketBar
- - Command API for personal modifications
+ - ~~Login / Logout Commands~~
+ - ~~Navigation via input of URI (i.e. type in `/a/place/on/my/site` and navigate there directly from RocketBar)~~
+ - ~~A set of "default" commands / links, based on your usage of the RocketBar~~
+ - ~~Command API for personal modifications~~ (This is complete, but yet to be documented.)
  - Bar themeing
 
 ---
@@ -66,7 +66,8 @@ If you would like to suggest an addition or change, tell us in the Support forum
 == Screenshots ==
 
 1. The RocketBar administration panel
-1. The RocketBar within the Dashboard
+1. The RocketBar's default links
+1. Example use of The RocketBar
 
 == Changelog ==
 
@@ -82,6 +83,14 @@ If you would like to suggest an addition or change, tell us in the Support forum
 = 150524-2 =
 * Command upgrade
 
+= 150525 =
+* Fixed bug where opening RocketBar put a space into the search field
+* Fixed bug where you could go too far down with the `arrow down` key
+* NEW: RocketBar now has documentation on the current commands available under `Tools -> RocketBar`.
+* NEW: Search Google Feature -- As a default feature, RocketBar will now give you the option to search for anything you put into the bar
+* NEW: Navigate to -- Type in `/`, and URI afterwards and hit `ENTER`. Now you'll go to that area of your site. :-)
+* NEW: Default links when opening the RocketBar.
+
 == Upgrade Notice ==
 
 = 150517 =
@@ -95,3 +104,6 @@ Commands update! Upgrade ASAP!
 
 = 150524-2 =
 Some hotfixes to commands + a bit of an upgrade!
+
+= 150525 =
+Bug fixes, New features + Maintenance Release

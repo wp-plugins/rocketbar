@@ -59,7 +59,11 @@ class commands {
 
 		$print_js = function () {
 			$obj = json_encode($GLOBALS['rocketbar_commands']);
-			echo '<script>(function(){ document.rocketbarCommands=JSON.parse(\'' . $obj . '\'); document.rocketbarIcon=\'' . plugin()->url . '/client-s/rocket.svg' . '\'; })();</script>';
+			echo '<script>
+				(function(){ document.rocketbarCommands=JSON.parse(\'' . $obj . '\');
+				document.rocketbarIcon=\'' . plugin()->url . '/client-s/rocket.svg' . '\';
+				document.rocketbarBaseURL=\'' . site_url() . '\'; })();
+			</script>';
 		};
 
 		add_action('wp_footer', $print_js);
@@ -70,9 +74,12 @@ class commands {
 	 * Default RocketBar commands
 	 */
 	protected static function default_commands() {
+		// Help
+		self::add_new('help', admin_url('admin.php?page=rocketbar'), 'Help -- Commands / Key Binds');
+
 		// Login / Logout Commands
 		self::add_new('logout', wp_logout_url(), 'Logout of your WordPress site');
-		//self::add_new('login', site_url('/?_rocketbar_login_cmd=1'), 'Login to the specified User', '<username>');
+		self::add_new('login', site_url('/?_rocketbar_login_cmd=1'), 'Login to the specified User', '<username>');
 
 		// Edit Post/Page Command
 		global $post;
