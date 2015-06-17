@@ -10,7 +10,6 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 The quicker page switcher!? Keyboard shortcuts for your WordPress Dashboard.
 
-
 == Description ==
 
 The RocketBar is a new, faster (FREE) way to get around in WordPress. Instead of clicking from page to page, just hit a keyboard shortcut and immediately
